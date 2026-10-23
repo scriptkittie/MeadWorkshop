@@ -58,6 +58,7 @@ endif()
 qt_add_qml_module(MeadWorkshop
   URI MeadWorkshop
   VERSION 1.0
+  OUTPUT_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/qml/MeadWorkshop
   QML_FILES
     qml/Main.qml
     qml/Card.qml
