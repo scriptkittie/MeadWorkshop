@@ -1,0 +1,98 @@
+# Builds, tests and packs Mead Workshop for Windows and Linux.
+#  - On every push and pull request: build and run all three test programs.
+#  - On a version tag (git tag v0.1.0 && git push --tags): also make the Windows installer, the portable zip
+#    and the Linux AppImage, and attach them to a GitHub release.
+name: build
+
+on:
+  push:
+    branches: ["**"]
+    tags: ["v*"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  # A version tag must match the version in CMakeLists.txt (the one the app and installer show).
+  version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the tag matches CMakeLists.txt
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          want=$(sed -n 's/^project(MeadWorkshop VERSION \([0-9.]*\).*/\1/p' CMakeLists.txt)
+          tag="${GITHUB_REF_NAME#v}"
+          if [ "$tag" != "$want" ]; then
+            echo "::error::Tag v$tag doesn't match CMakeLists.txt version $want. Change project(MeadWorkshop VERSION ...) first."
+            exit 1
+          fi
+
+  windows:
+    needs: version
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: msys2 {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            mingw-w64-ucrt-x86_64-qt6-base
+            mingw-w64-ucrt-x86_64-qt6-declarative
+            mingw-w64-ucrt-x86_64-qt6-tools
+            mingw-w64-ucrt-x86_64-gcc
+            mingw-w64-ucrt-x86_64-cmake
+            mingw-w64-ucrt-x86_64-ninja
+            mingw-w64-ucrt-x86_64-nsis
+            zip
+      - name: Build, test and pack
+        run: bash packaging/windows/package.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MeadWorkshop-windows
+          path: |
+            dist/*.exe
+            dist/*.zip
+
+  linux:
+    needs: version
+    runs-on: ubuntu-22.04        # an older base, so the AppImage runs on most distributions
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jurplel/install-qt-action@v4
+        with:
+          version: "6.8.*"
+          cache: true
+      - name: Tools
+        run: sudo apt-get update && sudo apt-get install -y ninja-build libfuse2 libxkbcommon-x11-0 libxcb-cursor0
+      - name: Build, test and pack
+        run: bash packaging/linux/make-appimage.sh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MeadWorkshop-linux
+          path: dist/*.AppImage
+
+  # One release with all three files, made only when both builds (and all their tests) passed.
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [windows, linux]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          path: dist
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          name: Mead Workshop ${{ github.ref_name }}
+          generate_release_notes: true
+          files: |
+            dist/*.exe
+            dist/*.zip
+            dist/*.AppImage

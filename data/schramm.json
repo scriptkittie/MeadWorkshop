@@ -1,0 +1,160 @@
+{
+ "apples": {
+  "name": "Apples (cider)",
+  "unit": "gal",
+  "mild": [
+   3,
+   3
+  ],
+  "medium": [
+   4,
+   4
+  ],
+  "strong": 4,
+  "note": "Mild/medium: gallons of cider in primary (0.6 / 0.8 L cider per L must). Strong: 4 gal cider + three 16-oz cans apple juice concentrate in secondary."
+ },
+ "blueberries": {
+  "name": "Blueberries",
+  "unit": "lb",
+  "mild": [
+   5,
+   7
+  ],
+  "medium": [
+   7,
+   10
+  ],
+  "strong": 11
+ },
+ "cherries-sweet": {
+  "name": "Cherries (sweet)",
+  "unit": "lb",
+  "mild": [
+   4,
+   6
+  ],
+  "medium": [
+   7,
+   9
+  ],
+  "strong": 10
+ },
+ "cherries-tart": {
+  "name": "Cherries (tart)",
+  "unit": "lb",
+  "mild": [
+   3,
+   5
+  ],
+  "medium": [
+   6,
+   8
+  ],
+  "strong": 9
+ },
+ "citrus": {
+  "name": "Citrus fruits",
+  "unit": "lb",
+  "mild": [
+   3,
+   5
+  ],
+  "medium": [
+   6,
+   8
+  ],
+  "strong": 9,
+  "note": "Less for lemons and limes than for oranges and grapefruits."
+ },
+ "currants": {
+  "name": "Currants",
+  "unit": "lb",
+  "mild": [
+   2,
+   4
+  ],
+  "medium": [
+   5,
+   7
+  ],
+  "strong": 8
+ },
+ "melons": {
+  "name": "Melons",
+  "unit": "lb",
+  "mild": [
+   3,
+   5
+  ],
+  "medium": [
+   6,
+   8
+  ],
+  "strong": 9
+ },
+ "peaches": {
+  "name": "Peaches",
+  "unit": "lb",
+  "mild": [
+   5,
+   7
+  ],
+  "medium": [
+   8,
+   12
+  ],
+  "strong": 13
+ },
+ "pears": {
+  "name": "Pears",
+  "unit": "lb",
+  "mild": [
+   5,
+   7
+  ],
+  "medium": [
+   8,
+   10
+  ],
+  "strong": 11
+ },
+ "plums": {
+  "name": "Plums (use the skins)",
+  "unit": "lb",
+  "mild": [
+   4,
+   6
+  ],
+  "medium": [
+   7,
+   9
+  ],
+  "strong": 10
+ },
+ "raspberries": {
+  "name": "Raspberries",
+  "unit": "lb",
+  "mild": [
+   2,
+   4
+  ],
+  "medium": [
+   5,
+   7
+  ],
+  "strong": 8
+ },
+ "strawberries": {
+  "name": "Strawberries",
+  "unit": "lb",
+  "mild": [
+   5,
+   7
+  ],
+  "medium": [
+   8,
+   12
+  ],
+  "strong": 13
+ }
+}

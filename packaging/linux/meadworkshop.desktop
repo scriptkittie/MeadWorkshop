@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Mead Workshop
+Comment=Plan and design meads from the methods in Piatz, Schramm and Katz
+Exec=MeadWorkshop
+Icon=meadworkshop
+Categories=Utility;
+Terminal=false

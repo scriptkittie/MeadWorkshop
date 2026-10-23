@@ -1,0 +1,12 @@
+build/
+build-*/
+*.user
+*.user.*
+CMakeLists.txt.user*
+app-log.txt
+build-log.txt
+dist/
+package-log.txt
+book-pack/
+startup-log.txt
+startup-details.txt

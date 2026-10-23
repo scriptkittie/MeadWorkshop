@@ -1,0 +1,389 @@
+[
+ {
+  "kind": "published",
+  "id": "piatz-buckwheat",
+  "src": "piatz",
+  "ref": "Ch.10 Recipes — Straight Meads",
+  "name": "Buckwheat",
+  "style": "Traditional",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-orange-blossom",
+  "src": "piatz",
+  "ref": "Ch.10 (also Ch.5 step-by-step first mead)",
+  "name": "Orange Blossom",
+  "style": "Traditional",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-tupelo",
+  "src": "piatz",
+  "ref": "Ch.10 — Straight Meads",
+  "name": "Tupelo",
+  "style": "Traditional",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-chardonnay",
+  "src": "piatz",
+  "ref": "Ch.10 — Pyments",
+  "name": "Chardonnay",
+  "style": "Pyment",
+  "volumeGal": 5.5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-gewurztraminer",
+  "src": "piatz",
+  "ref": "Ch.10 — Pyments",
+  "name": "Gewürztraminer",
+  "style": "Pyment",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-muscat",
+  "src": "piatz",
+  "ref": "Ch.10 — Pyments",
+  "name": "Muscat",
+  "style": "Pyment",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-sangiovese",
+  "src": "piatz",
+  "ref": "Ch.10 — Pyments",
+  "name": "Sangiovese",
+  "style": "Pyment",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-apple-cyser",
+  "src": "piatz",
+  "ref": "Ch.10 — Cysers",
+  "name": "Apple",
+  "style": "Cyser",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-black-currant",
+  "src": "piatz",
+  "ref": "Ch.10 — Berry Mead",
+  "name": "Black Currant",
+  "style": "Melomel",
+  "volumeGal": 6
+ },
+ {
+  "kind": "published",
+  "id": "piatz-black-raspberry",
+  "src": "piatz",
+  "ref": "Ch.10 — Berry Mead",
+  "name": "Black Raspberry",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-chokeberry",
+  "src": "piatz",
+  "ref": "Ch.10 — Berry Mead (processing in Ch.3)",
+  "name": "Chokeberry",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-elderberry",
+  "src": "piatz",
+  "ref": "Ch.10 — Berry Mead",
+  "name": "Elderberry",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-mixed-berry",
+  "src": "piatz",
+  "ref": "Ch.10 — Berry Mead",
+  "name": "Mixed Berry",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-pomegranate",
+  "src": "piatz",
+  "ref": "Ch.10 — Berry Mead",
+  "name": "Pomegranate",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-pomegranate-black-currant",
+  "src": "piatz",
+  "ref": "Ch.10 — Berry Mead",
+  "name": "Pomegranate–Black Currant",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-raspberry",
+  "src": "piatz",
+  "ref": "Ch.10 — Berry Mead",
+  "name": "Raspberry",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-blackberry-chardonnay",
+  "src": "piatz",
+  "ref": "Ch.10 — Melomel",
+  "name": "Blackberry–Chardonnay",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-pom-currant-cherry",
+  "src": "piatz",
+  "ref": "Ch.10 — Melomel",
+  "name": "Pomegranate–Black Currant–Tart Cherry",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-sangiovese-zin-currant",
+  "src": "piatz",
+  "ref": "Ch.10 — Melomel",
+  "name": "Sangiovese–Zinfandel–Black Currant",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-peach-mango",
+  "src": "piatz",
+  "ref": "Ch.10 — Stone Fruit Mead",
+  "name": "Peach Mango",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-raspberry-hot-pepper",
+  "src": "piatz",
+  "ref": "Ch.10 — Fruit and Spice Mead",
+  "name": "Raspberry–Hot Pepper",
+  "style": "Fruit & spice",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-strawberry-banana-ginger",
+  "src": "piatz",
+  "ref": "Ch.10 — Fruit and Spice Mead",
+  "name": "Strawberry–Banana–Ginger",
+  "style": "Fruit & spice",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-mesquite-chipotle",
+  "src": "piatz",
+  "ref": "Ch.10 — Spice, Herb, or Vegetable Mead",
+  "name": "Mesquite–Chipotle",
+  "style": "Metheglin",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-ginger",
+  "src": "piatz",
+  "ref": "Ch.10 — Spice, Herb, or Vegetable Mead",
+  "name": "Not Mary Anne–Ginger",
+  "style": "Metheglin",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-spearmint",
+  "src": "piatz",
+  "ref": "Ch.10 — Spice, Herb, or Vegetable Mead",
+  "name": "Spearmint",
+  "style": "Metheglin",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-bourbon-barrel",
+  "src": "piatz",
+  "ref": "Ch.10 — Experimental Mead",
+  "name": "Bourbon Barrel",
+  "style": "Experimental",
+  "volumeGal": 9
+ },
+ {
+  "kind": "published",
+  "id": "piatz-mesquite-agave",
+  "src": "piatz",
+  "ref": "Ch.10 — Experimental Mead",
+  "name": "Mesquite–Agave",
+  "style": "Experimental",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "piatz-dry-hopped-braggot",
+  "src": "piatz",
+  "ref": "Ch.10 — Braggots",
+  "name": "Dry-Hopped Braggot",
+  "style": "Braggot",
+  "volumeGal": 6
+ },
+ {
+  "kind": "published",
+  "id": "piatz-smoked-braggot",
+  "src": "piatz",
+  "ref": "Ch.10 — Braggots",
+  "name": "Smoked Braggot",
+  "style": "Braggot",
+  "volumeGal": 5.5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-first-mead",
+  "src": "schramm",
+  "ref": "Ch.3 Changing Honey into Wine (shopping list in Ch.2)",
+  "name": "Medium Sweet Orange Blossom Mead",
+  "style": "Traditional",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-spargentina",
+  "src": "schramm",
+  "ref": "Ch.11 Grains and Braggot",
+  "name": "Don't Cry for Me Spargentina Barley Wine–Style Braggot",
+  "style": "Braggot",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-dry-show",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes",
+  "name": "Dry Show Mead",
+  "style": "Traditional",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-medium-show",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes",
+  "name": "Medium Show Mead",
+  "style": "Traditional",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-sweet-show",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes",
+  "name": "Sweet Show Mead",
+  "style": "Traditional",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-nutmeg-metheglin",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes",
+  "name": "Dry Nutmeg Metheglin",
+  "style": "Metheglin",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-cherry-melomel",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes",
+  "name": "Cherry Melomel",
+  "style": "Melomel",
+  "volumeGal": 5.4
+ },
+ {
+  "kind": "published",
+  "id": "schramm-mambo",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes — Multi-Berry Melomel",
+  "name": "Mambo in Your Mouth",
+  "style": "Melomel",
+  "volumeGal": 4
+ },
+ {
+  "kind": "published",
+  "id": "schramm-peach-ginger",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes",
+  "name": "Peach Ginger Melomel",
+  "style": "Melomel",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-falls-bounty-cyser",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes",
+  "name": "Fall's Bounty Cyser",
+  "style": "Cyser",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-hefty-braggot",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes",
+  "name": "Hefty Braggot",
+  "style": "Braggot",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-riesling-pyment",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes — Dan McConnell",
+  "name": "Riesling Pyment",
+  "style": "Pyment",
+  "volumeGal": 5
+ },
+ {
+  "kind": "published",
+  "id": "schramm-oblacinska-riesling",
+  "src": "schramm",
+  "ref": "Ch.12 Recipes — Dan McConnell",
+  "name": "Oblacinska Cherry Riesling Pyment",
+  "style": "Pyment",
+  "volumeGal": 4
+ },
+ {
+  "kind": "published",
+  "id": "katz-simple-mead",
+  "src": "katz",
+  "ref": "Ch. on Mead (wild fermentation)",
+  "name": "Simple Wild Mead (1:4)",
+  "style": "Wild / traditional",
+  "volumeGal": 1
+ }
+]

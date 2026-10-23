@@ -1,0 +1,290 @@
+{
+ "sources": {
+  "piatz": {
+   "short": "Piatz",
+   "title": "The Complete Guide to Making Mead",
+   "author": "Steve Piatz",
+   "year": 2014
+  },
+  "schramm": {
+   "short": "Schramm",
+   "title": "The Compleat Meadmaker",
+   "author": "Ken Schramm",
+   "year": 2003
+  },
+  "katz": {
+   "short": "Katz",
+   "title": "The Art of Fermentation",
+   "author": "Sandor Ellix Katz",
+   "year": 2012
+  },
+  "usda": {
+   "short": "USDA",
+   "title": "USDA FoodData Central",
+   "author": "USDA",
+   "year": null
+  }
+ },
+ "honeys": [
+  {
+   "name": "Orange blossom",
+   "group": "common",
+   "note": "Distinctive citrus aroma and flavor that stands up well in mead. Piatz's default for a first mead."
+  },
+  {
+   "name": "Clover",
+   "group": "common",
+   "note": "Widely available, delicate; easily overpowered by strong ingredients."
+  },
+  {
+   "name": "White clover",
+   "group": "common",
+   "note": "Schramm's base honey for several melomels."
+  },
+  {
+   "name": "Wildflower",
+   "group": "common",
+   "note": "Varies widely by region and season. Piatz advises against it for a first straight mead."
+  },
+  {
+   "name": "Tupelo",
+   "group": "common",
+   "note": "Complex: herbs, wood, marshmallow. High fructose; seems sweet even when dry."
+  },
+  {
+   "name": "Buckwheat",
+   "group": "common",
+   "note": "Dark, bold, like buckwheat flour."
+  },
+  {
+   "name": "Mesquite",
+   "group": "common",
+   "note": "Robust, earthy (not smoky); great with hot peppers and many fruits."
+  },
+  {
+   "name": "Alfalfa",
+   "group": "common",
+   "note": "Very light and delicate; can leave a slight waxy character."
+  },
+  {
+   "name": "Basswood (linden)",
+   "group": "common",
+   "note": "Pale, distinct lingering flavor some find harsh."
+  },
+  {
+   "name": "Raspberry blossom",
+   "group": "unusual",
+   "note": "Golden, floral, light citrus background."
+  },
+  {
+   "name": "Blackberry blossom",
+   "group": "unusual",
+   "note": "Floral, herbal; no overt blackberry character."
+  },
+  {
+   "name": "Blueberry blossom",
+   "group": "unusual",
+   "note": "Amber, floral, leafy, hints of citrus."
+  },
+  {
+   "name": "Apple blossom",
+   "group": "unusual",
+   "note": "Delicate floral."
+  },
+  {
+   "name": "Cotton blossom",
+   "group": "unusual",
+   "note": "Golden, mildly woody."
+  },
+  {
+   "name": "Mint blossom",
+   "group": "unusual",
+   "note": "Light sweet mint note."
+  },
+  {
+   "name": "Star thistle",
+   "group": "unusual",
+   "note": "Used in Schramm's cherry melomel."
+  },
+  {
+   "name": "Saw palmetto",
+   "group": "unusual",
+   "note": "Used in Piatz's chokeberry blend."
+  },
+  {
+   "name": "Fireweed",
+   "group": "difficult",
+   "note": "Delicate; typically takes years to mellow."
+  },
+  {
+   "name": "Heather",
+   "group": "difficult",
+   "note": "Can be lovely but usually needs years of aging."
+  },
+  {
+   "name": "Sunflower",
+   "group": "difficult",
+   "note": "Indistinct but not unpleasant."
+  },
+  {
+   "name": "Pumpkin blossom",
+   "group": "difficult",
+   "note": "Earthy to the point of unpleasant."
+  }
+ ],
+ "juices": [
+  {
+   "id": "apple-juice",
+   "name": "Apple juice / cider",
+   "sg": null,
+   "fromFruit": "apple-juice",
+   "note": "SG varies by apple variety (Piatz). Measure yours."
+  },
+  {
+   "id": "pear-juice",
+   "name": "Pear juice",
+   "sg": null,
+   "fromFruit": "pears",
+   "note": "Piatz: can replace most or all apple juice in a cyser."
+  },
+  {
+   "id": "wine-grape-juice",
+   "name": "Wine grape juice (fresh)",
+   "sg": 1.095,
+   "note": "Piatz: fresh wine grape juice typically 1.090–1.100."
+  },
+  {
+   "id": "elderberry-juice",
+   "name": "Elderberry juice",
+   "sg": 1.05,
+   "note": "Piatz measured 1.050; varies by year."
+  },
+  {
+   "id": "pomegranate-juice",
+   "name": "Pomegranate juice",
+   "sg": 1.072,
+   "note": "Piatz measured 1.072 (the USDA sugar figure implies ~1.05)."
+  },
+  {
+   "id": "tart-cherry-juice",
+   "name": "Tart cherry juice",
+   "sg": null,
+   "note": "No figure in the books — measure it."
+  },
+  {
+   "id": "chokeberry-juice",
+   "name": "Chokeberry juice",
+   "sg": null,
+   "note": "No figure in the books — measure it."
+  },
+  {
+   "id": "cranberry-juice",
+   "name": "Cranberry juice",
+   "sg": null,
+   "fromFruit": "cranberry-juice"
+  },
+  {
+   "id": "orange-juice",
+   "name": "Orange juice",
+   "sg": null,
+   "fromFruit": "orange-juice"
+  },
+  {
+   "id": "tangerine-juice",
+   "name": "Tangerine juice",
+   "sg": null,
+   "fromFruit": "tangerine-juice"
+  },
+  {
+   "id": "grapefruit-juice",
+   "name": "Grapefruit juice",
+   "sg": null,
+   "fromFruit": "grapefruit-juice-white"
+  },
+  {
+   "id": "lemon-juice",
+   "name": "Lemon juice",
+   "sg": null,
+   "fromFruit": "lemon-juice",
+   "acidic": true
+  },
+  {
+   "id": "lime-juice",
+   "name": "Lime juice",
+   "sg": null,
+   "fromFruit": "lime-juice",
+   "acidic": true
+  },
+  {
+   "id": "pineapple-juice",
+   "name": "Pineapple juice",
+   "sg": null,
+   "fromFruit": "pineapple-juice"
+  },
+  {
+   "id": "raspberry-concentrate",
+   "name": "Raspberry concentrate (8:1)",
+   "sg": 1.017,
+   "ratio": 8,
+   "note": "Piatz: 1 qt of 8:1 concentrate = 2 gal juice. Single-strength SG estimated from USDA raspberry sugar."
+  },
+  {
+   "id": "riesling-concentrate",
+   "name": "Riesling grape concentrate",
+   "sg": null,
+   "ratio": 1,
+   "note": "Enter the reconstituted SG and dilution ratio from the label."
+  }
+ ],
+ "sugars": [
+  {
+   "name": "Cane sugar (sucrose)",
+   "ppg": 46,
+   "src": "Piatz ch.9 (sugar = 46 points per lb per gal)"
+  },
+  {
+   "name": "Malt extract",
+   "ppg": 40,
+   "src": "Schramm ch.11: 1 lb raises 5 gal about 8 points"
+  },
+  {
+   "name": "Agave nectar",
+   "ppg": 40,
+   "src": "Derived from Piatz's Mesquite–Agave recipe (behaves like honey)"
+  },
+  {
+   "name": "Dark brown sugar",
+   "ppg": 45,
+   "src": "Estimate: 46 × ~97% sugar (not in the books)"
+  },
+  {
+   "name": "Dates, chopped",
+   "ppg": 30,
+   "src": "Estimate: 46 × ~66% sugar (not in the books)"
+  },
+  {
+   "name": "Raisins",
+   "ppg": 27,
+   "src": "Estimate: 46 × ~59% sugar (not in the books)"
+  }
+ ],
+ "adjuncts": [
+  "Lime zest",
+  "Lemon zest",
+  "Orange zest",
+  "Ginger root",
+  "Cinnamon stick",
+  "Nutmeg",
+  "Vanilla bean",
+  "Cloves",
+  "Chipotle / dried chiles",
+  "Oak chips / cubes",
+  "Dried spearmint",
+  "Chamomile",
+  "Pectinase",
+  "Tannin",
+  "Acid blend",
+  "Calcium carbonate",
+  "Vodka (for tincture)"
+ ]
+}
